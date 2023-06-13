@@ -3,7 +3,7 @@ variable "vpc_id" {
 }
 
 variable "my_ip_with_cidr" {
-  type = string
+  type        = string
   description = "Provide your IP eg. 104.194.51.113/32"
 }
 
@@ -12,11 +12,11 @@ variable "public_key" {
 }
 
 variable "instance_type" {
-  type = string
+  type    = string
   default = "t2.micro"
 }
 
 variable "server_name" {
-  type = string
+  type    = string
   default = "Apache Example Server"
 }
